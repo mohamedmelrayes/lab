@@ -1,1 +1,17 @@
-ydgfyghcb
+to remove them locally 
+git branch -d dev
+git branch -d test
+
+remotely
+git push origin --delete dev
+git push origin --delete test
+
+litst a tag 
+git tag
+git tag --list "v1.*"
+
+to delete tag locally 
+git tag -d v1.7
+
+remotly 
+git push origin --delete v1.7
